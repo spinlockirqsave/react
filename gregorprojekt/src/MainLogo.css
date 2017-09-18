@@ -1,0 +1,46 @@
+.main-text-center {
+  text-align: center;
+  width: 100%;
+}
+
+.main-logo {
+  /*animation: Main-logo-spin infinite 20s linear;*/
+  /*animation: Main-logo-move infinite 5s ease-in-out;*/
+  animation: Main-logo-fade infinite 5s ease-in-out;
+  height: 160px;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+}
+
+.main-logo-header {
+  background-color: #CCD6E4;
+  height: 220px;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.main-logo-intro {
+  font-size: large;
+}
+
+@keyframes Main-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes Main-logo-move {
+  /*from { transform: translate(-800px,0); }*/
+  to { transform: translate(300px,0); }
+}
+
+@keyframes Main-logo-fade {
+  /*from { transform: translate(-800px,0); }*/
+  to { transform: opacity(1); }
+}
+
+.logo-text {
+        text-align: center;
+        font-size: 60px;
+}
